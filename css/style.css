@@ -217,7 +217,8 @@ body {
 ==================================================*/
 
 header {
-    text-align: center;
+   
+    text-align: auto;
     -webkit-transition: all .5s;
     transition: all .5s;
     height: 65px;
@@ -289,11 +290,9 @@ a.active {
         height: auto;
       }
       
-      }
+    }
       
-    background-size: cover;
-    height: 100vh;
-}
+    
 
 .table-cell {
     display: table-cell;
