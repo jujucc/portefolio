@@ -217,8 +217,8 @@ body {
 ==================================================*/
 
 header {
-   
-    text-align: auto;
+    display: inline-block;
+    text-align: center;
     -webkit-transition: all .5s;
     transition: all .5s;
     height: 65px;
