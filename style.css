@@ -327,10 +327,7 @@ a.active {
     display: flex;
   }
   
-  .figma-embed {
-    height: 65vh; /* Adjust viewport height as needed */
-    display: flex;
-  }
+  
 
  
 
