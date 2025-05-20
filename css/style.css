@@ -37,13 +37,13 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Arial' ;
+    font-family: 'arial' ;
     font-size: 80px;
     line-height: 70px;
 }
 
 h4 {
-    font-family: 'Arial';
+    font-family: 'arial';
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
