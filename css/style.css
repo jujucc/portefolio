@@ -37,8 +37,9 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'arial' ;
+    font-family: 'geometos neue';
     font-size: 80px;
+    font-weight: 600;
     line-height: 70px;
 }
 
@@ -61,7 +62,7 @@ body {
     font-family: 'arial';
     font-size: 14px;
     line-height: 24px;
-    color: #1e1e1e
+    color: #1e1e1e;
    
 }
 
@@ -85,14 +86,14 @@ body {
     right: 0;
     bottom: 0;
     background-color: #EFEFEC;
-    z-index: 10000
+    z-index: 10000;
 }
 
 #status,
 .preloader {
     top: 50%;
     left: 50%;
-    position: absolute
+    position: absolute;
 }
 
 #status {
@@ -100,14 +101,14 @@ body {
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: -50px 0 0 -50px
+    margin: -50px 0 0 -50px;
 }
 
 .preloader {
     height: 40px;
     width: 40px;
     margin-top: -20px;
-    margin-left: -20px
+    margin-left: -20px;
 }
 
 .preloader:before {
@@ -122,7 +123,7 @@ body {
     animation: rotation 1s linear infinite;
     border: 10px #97533b;
     border-top: 10px #EFEFEC;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .preloader>.icon {
@@ -134,7 +135,7 @@ body {
     margin-top: -12.5px;
     margin-left: -5.3px;
     -webkit-animation: wink 1s ease-in-out infinite alternate;
-    animation: wink 1s ease-in-out infinite alternate
+    animation: wink 1s ease-in-out infinite alternate;
 }
 
 @media only screen and (min-width:768px) {
@@ -142,18 +143,18 @@ body {
         height: 60px;
         width: 60px;
         margin-top: -30px;
-        margin-left: -30px
+        margin-left: -30px;
     }
     .preloader:before {
         left: -2px;
         top: -2px;
-        border-width: 2px
+        border-width: 2px;
     }
     .preloader>.icon {
         height: 37.5px;
         width: 15.9px;
         margin-top: -18.75px;
-        margin-left: -7.95px
+        margin-left: -7.95px;
     }
 }
 
@@ -162,13 +163,13 @@ body {
         height: 60px;
         width: 60px;
         margin-top: -30px;
-        margin-left: -30px
+        margin-left: -30px;
     }
     .preloader>.icon {
         height: 50px;
         width: 21.2px;
         margin-top: -25px;
-        margin-left: -10.6px
+        margin-left: -10.6px;
     }
 }
 
@@ -285,6 +286,7 @@ a.active {
 ==================================================*/
 
 #home {
+
     .image-responsive {
         max-width: 100%;
         height: auto;
@@ -334,7 +336,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #fff
+    background: #fff;
 }
 
 .experience-row {
@@ -343,12 +345,12 @@ a.active {
 }
 
 .experience-row h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'geometos neue';
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #97533b;
     font-size: 16px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .experience-row p {
@@ -402,6 +404,7 @@ a.active {
 }
 
 .timeline-event-copy h3 {
+    font-family: 'arial';
     font-size: 1.75em;
 }
 
@@ -411,7 +414,8 @@ a.active {
 }
 
 .timeline-event-copy strong {
-    font-weight: 700;
+    font-family: 'arial';
+    font-weight: 600;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
@@ -711,7 +715,8 @@ a.active {
 }
 
 .modal-content h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'geometos neue';
+    font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
@@ -723,7 +728,7 @@ a.active {
 #contact {
     padding: 100px 0;
     border: 5px ;
-    background: #F4EFF4
+    background: #F4EFF4;
 }
 
 #contact-form input,
@@ -751,7 +756,7 @@ a.active {
     font-size: 1.2rem;
     line-height: 1.2rem;
     color: #D33E43;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 #contact-form input[type="text"].error,
@@ -768,7 +773,7 @@ a.active {
 #contact-form input[type="time"].error,
 #contact-form input[type="url"].error,
 #contact-form textarea.error {
-    border-color: #D33E43
+    border-color: #D33E43;
 }
 
 textarea {
@@ -778,16 +783,16 @@ textarea {
 fieldset {
     border: 0px;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .required {
-    color: #e9266d
+    color: #e9266d;
 }
 
 #success,
 #error {
-    display: none
+    display: none;
 }
 
 #success p,
@@ -865,7 +870,8 @@ fieldset {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'geometos neue';
+        font-weight: 600;
         font-size: 50px;
         line-height: 50px;
     }
